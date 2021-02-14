@@ -19,11 +19,12 @@ const data = JSON.stringify({
 })
 
 const options = {
-  hostname: 'https://timetable.wintec.ac.nz',
-  port: 443,
+  hostname: 'timetable.wintec.ac.nz',
+  port: 443, // what port
   path: '/',
   method: 'POST',
   headers: {
+    'Accept-Encoding' : 'deflate, gzip, zstd',  
     'Connection' : 'keep-alive',
     'Cache-Control' : 'max-age=0',
     'Origin' : 'https://timetable.wintec.ac.nz',
@@ -39,6 +40,7 @@ const options = {
     'Referer' : 'https://timetable.wintec.ac.nz/student/2021/',
     'Accept-Language' : 'en-US,en;q=0.9',
     'Cookie' : 'ASP.NET_SessionId=4vevhveergycm1puy3fxo51z',
+    'Content-Length' : '83549'
   }
 }
 
