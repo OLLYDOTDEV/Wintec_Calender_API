@@ -1,6 +1,12 @@
- 
+
+
+
 const https = require('https')
- 
+var ProxyAgent = require('proxy-agent');
+
+
+// HTTP, HTTPS, or SOCKS proxy to use
+var proxyUri = process.env.http_proxy || 'http://192.168.1.10:8080';  // mitmporxy is what this is for
 const data = JSON.stringify({
   __EVENTTARGET : '',
   __EVENTARGUMENT : '',
@@ -20,7 +26,7 @@ const data = JSON.stringify({
 
 const options = {
   hostname: 'timetable.wintec.ac.nz',
-  port: 443, // what port
+  port: '443', // what port
   path: '/',
   method: 'POST',
   headers: {
@@ -37,15 +43,18 @@ const options = {
     'Sec-Fetch-Mode' : 'navigate',
     'Sec-Fetch-User' : '?1',
     'Sec-Fetch-Dest' : 'document',
-    'Referer' : 'https://timetable.wintec.ac.nz/student/2021/',
+    'Referer' : 'http://timetable.wintec.ac.nz/student/2021/',
     'Accept-Language' : 'en-US,en;q=0.9',
     'Cookie' : 'ASP.NET_SessionId=4vevhveergycm1puy3fxo51z',
     'Content-Length' : '83549'
-  }
+  },
+  agent: new ProxyAgent(proxyUri)
 }
 
 const req = https.request(options, res => {
-  console.log(`statusCode: ${res.statusCode}`)
+  console.log(res.statusCode, res.headers);
+
+
 
   res.on('data', d => {
     process.stdout.write(d)
