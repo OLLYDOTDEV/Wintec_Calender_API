@@ -18,23 +18,21 @@ function isLeapYear(year) {
 
 
 var date = new Date();
-
+// set date to start of the year
 date.getFullYear();
 date.setHours(1);
 date.setMonth(0);
 date.setDate(1);
 
 
-for (i = 0; i < days_of_a_year(date.getFullYear()); i++) {
-
-
-
+for (i = 0; i < days_of_a_year(date.getFullYear()); i++) { // make loop for every day of the year 
 console.log('' + date)
-console.log("Time: "+date.getFullYear()+"-"+date.getMonth()+"-"+date.getDate())
+console.log("Time: "+date.getFullYear()+"-"+date.getMonth()+"-"+date.getDate()); // human readable output for debug
 date.setDate(date.getDate() + 1);
 }
 
 /*
+List of info you can get from date's
 new Date().getDate()          // Return the day as a number (1-31)
 new Date().getDay()           // Return the weekday as a number (0-6)
 new Date().getFullYear()      // Return the four digit year (yyyy)
