@@ -4,4 +4,4 @@ fs.writeFile('helloworld.txt', 'Hello World!', function (err) {
   console.log('Hello World > helloworld.txt');
 });
 
-// https://nodejs.org/en/knowledge/file-system/how-to-write-files-in-nodejs/
+// https://nodejs.org/en/knowledge/file-system/how-to-read-files-in-nodejs/

@@ -1,0 +1,266 @@
+ntry (Level 4) - TC1901 Block 2</option>
+			<option value="#SPLUS10E970">TRD.NZ Cert in Carpentry (Level 4) - TC1901 Block 3</option>
+			<option value="#SPLUS10E971">TRD.NZ Cert in Carpentry (Level 4) - TC1901 Block 4</option>
+			<option value="#SPLUS10E972">TRD.NZ Cert in Carpentry (Level 4) - TC1901 Block 5</option>
+			<option value="#SPLUS10E973">TRD.NZ Cert in Carpentry (Level 4) - TC1901 Block 6</option>
+			<option value="#SPLUS10E974">TRD.NZ Cert in Carpentry (Level 4) - TC1901 Block 7</option>
+			<option value="#SPLUS3A4009">TRD.NZ Cert in Construction Skills Feb Stream C - TC1801 - MPTT</option>
+			<option value="#SPLUS3A400A">TRD.NZ Cert in Construction Skills Feb Stream T - TC1801</option>
+			<option value="#SPLUS1697EC">TRD.NZ Cert in Construction Skills Feb Stream W - TC1801 </option>
+			<option value="#SPLUS227D55">TRD.NZ Cert in Construction Skills July 2020 - Stream K - TC1801</option>
+			<option value="#SPLUS939AFC">TRD.NZ Cert in Construction Skills July 2020 - Stream R - TC1801</option>
+			<option value="#SPLUSFB818D">TRD.NZ Cert in Construction Skills July 2021 - Stream K - TC1801</option>
+			<option value="#SPLUSFB818E">TRD.NZ Cert in Construction Skills July 2021 - Stream R - TC1801</option>
+			<option value="#SPLUSBC879B">TRD.pCTT Plumbing Pre Trade L3 S1 (TC1803) - Stream A</option>
+			<option value="#SPLUSE4499D">TRD.pCTT Plumbing Pre Trade L3 S1 (TC1803) - Stream B</option>
+			<option value="#SPLUSBC87A5">TRD.pCTT Plumbing Pre Trade L3 S2 (TC1803) - Stream A</option>
+			<option value="#SPLUSE4499E">TRD.pCTT Plumbing Pre Trade L3 S2 (TC1803) - Stream B</option>
+			<option value="#SPLUS471227">TRD.PGDRITO - Skills Org - NZC Drainlaying Block Courses - TE1204</option>
+			<option value="#SPLUS783ED6">TRD.PGDRITO - Skills Org - Plumbing Block Courses - TE1204</option>
+			<option value="#SPLUSA4B0EE">TRD.PGDRITO - Skills Org - Plumbing Block Courses - TE1204/2</option>
+			<option value="#SPLUSBA6126">TRD.PGDRITO - Skills Week</option>
+			<option value="#SPLUSBC8903">TRD.pITO Plumbing 10</option>
+			<option value="#SPLUSBC890D">TRD.pITO Plumbing 11</option>
+			<option value="#SPLUSBC8917">TRD.pITO Plumbing 12</option>
+			<option value="#SPLUSBC88BD">TRD.pITO Plumbing 3</option>
+			<option value="#SPLUSBC88C7">TRD.pITO Plumbing 4</option>
+			<option value="#SPLUSBC88D1">TRD.pITO Plumbing 5</option>
+			<option value="#SPLUSBC88DB">TRD.pITO Plumbing 6</option>
+			<option value="#SPLUSBC88E5">TRD.pITO Plumbing 7</option>
+			<option value="#SPLUSBC88EF">TRD.pITO Plumbing 8</option>
+			<option value="#SPLUSBC88F9">TRD.pITO Plumbing 9</option>
+			<option value="#SPLUSE8F185">TRD.Skill Org - Electrical Yr1 - TE1212</option>
+			<option value="#SPLUS1F0828">TRD.Skill Org - Electrical Yr2 - TE1212</option>
+			<option value="#SPLUSB494D1">TRD.Skill Org - Electrical Yr3 - TE1212</option>
+			<option value="#SPLUSFE5ADB">TRD.Star AUTO Taster</option>
+			<option value="#SPLUS4E219C">TRD.WTA CI HAM Yr1 Group A - YP1501</option>
+			<option value="#SPLUS4E219D">TRD.WTA CI HAM Yr1 Group B - YP1501</option>
+			<option value="#SPLUS4E21A0">TRD.WTA CI HAM Yr1 Group C - YP1501</option>
+			<option value="#SPLUS4E219E">TRD.WTA CI HAM Yr1 Group D - YP1501</option>
+			<option value="#SPLUSA4D864">TRD.WTA CI HAM Yr1 Group E - YP1501</option>
+			<option value="#SPLUSAD0042">TRD.WTA CI HAM Yr1 Group F - YP1501</option>
+			<option value="#SPLUS436CCB">TRD.WTA CI HAM Yr1 Group J - YP1501</option>
+			<option value="#SPLUS29C885">TRD.WTA CI KOPU Yr1 Group G - YP1501</option>
+			<option value="#SPLUS69DBDA">TRD.WTA CI KOPU Yr1 Group H - YP1501</option>
+			<option value="#SPLUS43700C">TRD.WTA CI OTO Yr1 Group K - YP1501</option>
+			<option value="#SPLUS43700D">TRD.WTA CI OTO Yr1 Group L - YP1501</option>
+			<option value="#SPLUS43700E">TRD.WTA CI OTO Yr1 Group M - YP1501</option>
+			<option value="#SPLUS43700F">TRD.WTA CI OTO Yr1 Group N - YP1501</option>
+			<option value="#SPLUS09EE89">TRD.WTA HAM Yr2 L2 Elec Eng - VP0020 </option>
+			<option value="#SPLUS4E21BE">TRD.WTA HAM Yr2 L3 Auto Group A - VP0019</option>
+			<option value="#SPLUS95DE1B">TRD.WTA HAM Yr2 L3 Building A - VP0012</option>
+			<option value="#SPLUSDA04E5">TRD.WTA HAM Yr2 L3 Building B - VP0012</option>
+			<option value="#SPLUS4E190F">TRD.WTA HAM Yr2 L3 Mech Eng Group A - VP0017</option>
+			<option value="#SPLUS09F906">TRD.WTA HAM Yr2 L3 Mech Eng Group B - VP0017</option>
+			<option value="#SPLUS95E188">TRD.WTA KOPU Yr2 L3 Building D - VP0012</option>
+			<option value="#SPLUS09F908">TRD.WTA KOPU Yr2 L3 Mech Eng Group C - VP0017</option>
+			<option value="#SPLUS4E21A4">TRD.WTA MT Group A - YP1503</option>
+			<option value="#SPLUS4E21A5">TRD.WTA MT Group B - YP1503</option>
+			<option value="#SPLUS297E32">TRD.WTA MT Group C - YP1503</option>
+			<option value="#SPLUS4E21A1">TRD.WTA MT Group D - YP1503</option>
+			<option value="#SPLUS021466">TRD.WTA MT Group E - YP1503</option>
+			<option value="#SPLUSED0795">TRD.WTA MT Group F - YP1503</option>
+			<option value="#SPLUSE6C9A0">TRD.WTA MT Group I - YP1503</option>
+			<option value="#SPLUSA4DD7B">TRD.WTA MT Group L - YP1503</option>
+			<option value="#SPLUS29D7A3">TRD.WTA MT KOPU Group G - YP1503</option>
+			<option value="#SPLUS29D7A6">TRD.WTA MT KOPU Group H - YP1503</option>
+			<option value="#SPLUS29E66D">TRD.WTA OTO Yr2 L2 Elec Eng - VP0020</option>
+			<option value="#SPLUS95DE9F">TRD.WTA OTO Yr2 L3 Building C - VP0012 </option>
+
+		</select>
+                                </td>
+                            </tr>
+                        </table>
+                    
+	</div>
+                    
+                    
+                    
+                    <div id="pWeeks" style="width:100%;">
+		
+                        <table class="DepartmentTable">
+                            <tr>
+                                <td class="DepartmentLabel">
+                                    <span id="lWeeks" class="DepartmentLabel">Select Period(s)</span>
+                                </td>
+                                <td>
+                                    <select size="4" name="lbWeeks" multiple="multiple" id="lbWeeks" class="DepartmentFilter">
+			<option selected="selected" value="t">This Week</option>
+			<option value="n">Next Week</option>
+			<option value="4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;29;30;31;32;33;34;35;36;37;38;39;40;41;42;43;44;45;46;47;48">FY General </option>
+			<option value="6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26">Semester One General </option>
+			<option value="28;29;30;31;32;33;34;35;36;37;38;39;40;41;42;43;44;45;46;47">Semester Two General </option>
+			<option value="41;42;43;44;45;46;47">Term Four General </option>
+			<option value="6;7;8;9;10;11;12;13;14;15">Term One General </option>
+			<option value="29;30;31;32;33;34;35;36;37;38">Term Three General </option>
+			<option value="18;19;20;21;22;23;24;25">Term Two General </option>
+			<option value=" 1">week  1 w/c 04 Jan 2021</option>
+			<option value=" 2">week  2 w/c 11 Jan 2021</option>
+			<option value=" 3">week  3 w/c 18 Jan 2021</option>
+			<option value=" 4">week  4 w/c 25 Jan 2021</option>
+			<option value=" 5">week  5 w/c 01 Feb 2021</option>
+			<option value=" 6">week  6 w/c 08 Feb 2021</option>
+			<option value=" 7">week  7 w/c 15 Feb 2021</option>
+			<option value=" 8">week  8 w/c 22 Feb 2021</option>
+			<option value=" 9">week  9 w/c 01 Mar 2021</option>
+			<option value=" 10">week  10 w/c 08 Mar 2021</option>
+			<option value=" 11">week  11 w/c 15 Mar 2021</option>
+			<option value=" 12">week  12 w/c 22 Mar 2021</option>
+			<option value=" 13">week  13 w/c 29 Mar 2021</option>
+			<option value=" 14">week  14 w/c 05 Apr 2021</option>
+			<option value=" 15">week  15 w/c 12 Apr 2021</option>
+			<option value=" 16">week  16 w/c 19 Apr 2021</option>
+			<option value=" 17">week  17 w/c 26 Apr 2021</option>
+			<option value=" 18">week  18 w/c 03 May 2021</option>
+			<option value=" 19">week  19 w/c 10 May 2021</option>
+			<option value=" 20">week  20 w/c 17 May 2021</option>
+			<option value=" 21">week  21 w/c 24 May 2021</option>
+			<option value=" 22">week  22 w/c 31 May 2021</option>
+			<option value=" 23">week  23 w/c 07 Jun 2021</option>
+			<option value=" 24">week  24 w/c 14 Jun 2021</option>
+			<option value=" 25">week  25 w/c 21 Jun 2021</option>
+			<option value=" 26">week  26 w/c 28 Jun 2021</option>
+			<option value=" 27">week  27 w/c 05 Jul 2021</option>
+			<option value=" 28">week  28 w/c 12 Jul 2021</option>
+			<option value=" 29">week  29 w/c 19 Jul 2021</option>
+			<option value=" 30">week  30 w/c 26 Jul 2021</option>
+			<option value=" 31">week  31 w/c 02 Aug 2021</option>
+			<option value=" 32">week  32 w/c 09 Aug 2021</option>
+			<option value=" 33">week  33 w/c 16 Aug 2021</option>
+			<option value=" 34">week  34 w/c 23 Aug 2021</option>
+			<option value=" 35">week  35 w/c 30 Aug 2021</option>
+			<option value=" 36">week  36 w/c 06 Sep 2021</option>
+			<option value=" 37">week  37 w/c 13 Sep 2021</option>
+			<option value=" 38">week  38 w/c 20 Sep 2021</option>
+			<option value=" 39">week  39 w/c 27 Sep 2021</option>
+			<option value=" 40">week  40 w/c 04 Oct 2021</option>
+			<option value=" 41">week  41 w/c 11 Oct 2021</option>
+			<option value=" 42">week  42 w/c 18 Oct 2021</option>
+			<option value=" 43">week  43 w/c 25 Oct 2021</option>
+			<option value=" 44">week  44 w/c 01 Nov 2021</option>
+			<option value=" 45">week  45 w/c 08 Nov 2021</option>
+			<option value=" 46">week  46 w/c 15 Nov 2021</option>
+			<option value=" 47">week  47 w/c 22 Nov 2021</option>
+			<option value=" 48">week  48 w/c 29 Nov 2021</option>
+			<option value=" 49">week  49 w/c 06 Dec 2021</option>
+			<option value=" 50">week  50 w/c 13 Dec 2021</option>
+			<option value=" 51">week  51 w/c 20 Dec 2021</option>
+			<option value=" 52">week  52 w/c 27 Dec 2021</option>
+
+		</select>
+                                </td>
+                            </tr>
+                        </table>
+                    
+	</div>
+                    
+                    
+                    <div id="pDays" style="width:100%;">
+		
+                        <table class="DepartmentTable">
+                            <tr>
+                                <td class="DepartmentLabel">
+                                    <span id="lDays" class="DepartmentLabel">Select Day(s)</span>
+                                </td>
+                                <td>
+                                    <select size="4" name="lbDays" multiple="multiple" id="lbDays" class="DepartmentFilter">
+			<option selected="selected" value="1-5;1;2;3;4;5">Weekdays (Mon - Fri)</option>
+			<option value="1-7;1;2;3;4;5;6;7">All Week (Mon - Sun)</option>
+			<option value="1">Monday</option>
+			<option value="2">Tuesday</option>
+			<option value="3">Wednesday</option>
+			<option value="4">Thursday</option>
+			<option value="5">Friday</option>
+			<option value="6">Saturday</option>
+			<option value="7">Sunday</option>
+
+		</select>
+                                </td>
+                            </tr>
+                        </table>
+                    
+	</div>
+                    <div id="pPeriod" style="width:100%;">
+		
+                        <table class="DepartmentTable">
+                            <tr>
+                                <td class="DepartmentLabel">
+                                    <span id="lPeriod" class="DepartmentLabel">Select Time Period</span>
+                                </td>
+                                <td>
+                                    <select name="dlPeriod" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;dlPeriod\&#39;,\&#39;\&#39;)&#39;, 0)" id="dlPeriod" class="DepartmentFilter">
+			<option selected="selected" value="1-24;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24">All Day (7am - 7pm)</option>
+			<option value="1-68;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;37;38;39;40;41;42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61;62;63;64;65;66;67;68">Day / Evening (7am - Midnight)</option>
+
+		</select>
+                                </td>
+                            </tr>
+                        </table>
+                    
+	</div>
+                    <div id="pType" style="width:100%;">
+		
+                        <table class="DepartmentTable">
+                            <tr>
+                                <td class="DepartmentLabel">
+                                    <span id="lType" class="DepartmentLabel">Select Report Type</span>
+                                </td>
+                                <td>
+                                    <select name="dlType" id="dlType" class="DepartmentFilter">
+			<option selected="selected" value="student_set_grid;cyon_reports_calendar_url;dummy">Pictorial</option>
+			<option value="student_set_list;cyon_reports_list_url;dummy">List</option>
+
+		</select>
+                                </td>
+                            </tr>
+                        </table>
+                    
+	</div>
+                    
+                    <div id="pButton" style="width:100%;">
+		
+                        <input type="submit" name="bGetTimetable" value="View Timetable" onclick="return viewtimetableclick();" id="bGetTimetable" class="ViewTimetableButton" />
+                        <input type="submit" name="bReset" value="Reset" id="bReset" class="ViewTimetableButton" /><br /> <br /> 
+	</div>
+                
+</div>
+                
+                <!-- INCLUDE the following if you want the Links to go DOWN the page                 </td></tr></table>               END INCLUDE the following if you want the Links to go DOWN the page -->
+            </div>
+        </form>
+        
+    </body>
+
+    </html>PLUS790A2C">TRD.H Culinary Arts Yr1 110/K</option>
+			<option value="#SPLUS7242E2">TRD.H Culinary Arts Yr2 201/A</option>
+			<option value="#SPLUS642B4B">TRD.H Culinary Arts Yr2 202/B</option>
+			<option value="#SPLUS3E501D">TRD.H Culinary Arts Yr2 203/C</option>
+			<option value="#SPLUS59CE57">TRD.H Culinary Arts Yr2 204/D</option>
+			<option value="#SPLUS076AB4">TRD.H Culinary Arts Yr2 205/E</option>
+			<option value="#SPLUS9D3CC2">TRD.H Restaurant and Bar Supervisory 4.1</option>
+			<option value="#SPLUS6DB7E5">TRD.H Restaurant and Bar Supervisory 4.2</option>
+			<option value="#SPLUSB69BEE">TRD.H Restaurant and Barista Service 3.1</option>
+			<option value="#SPLUS8E3918">TRD.H Restaurant and Barista Service 3.2</option>
+			<option value="#SPLUS00F47E">TRD.H STAR Hospitality/Gateway 1</option>
+			<option value="#SPLUSACFB70">TRD.H STAR Hospitality/Gateway 2</option>
+			<option value="#SPLUS20E0A2">TRD.H STAR Hospitality/Gateway 3</option>
+			<option value="#SPLUS005D4D">TRD.H STAR Taster Cookery</option>
+			<option value="#SPLUS85193B">TRD.H STAR Taster Restaurant</option>
+			<option value="#SPLUS5CA08B">TRD.H WTA Cafe Skills L2/A</option>
+			<option value="#SPLUS5CA078">TRD.H WTA Cafe Skills L2/B</option>
+			<option value="#SPLUSEA8C9F">TRD.H WTA Cafe Skills L2/C</option>
+			<option value="#SPLUSBC84AD">TRD.IMC Y1 L4 Option 1</option>
+			<option value="#SPLUSF83246">TRD.IMC Y1 L4 Option 2</option>
+			<option value="#SPLUS7DA765">TRD.IMC Y1 L4 Option 3</option>
+			<option value="#SPLUS7DA766">TRD.IMC Y1 L4 Option 4</option>
+			<option value="#SPLUS43115F">TRD.IMC Y1 L4 Timaru</option>
+			<option value="#SPLUSBC84A3">TRD.IMC Y2 L4 Option 1</option>
+			<option value="#SPLUSF83247">TRD.IMC Y2 L4 Option 2</option>
+			<option value="#SPLUS7DB80E">TRD.IMC Y2 L4 Option 3</option>
+			<option value="#SPLUS70A73D">TRD.IMC Y2 L4 Option 4</option>
+			<option value="#SPLUS70A73E">TRD.IMC Y2 L4 Timaru</option>
+			<option value="#SPLUS887318">TRD.Mech Eng L3 - FY - TC1701 - Stm A</option>
+			<option value="#SPLUS7F73AF">TRD.Mech Eng L3 - July 2019 - TC1807 - Stm A</option>
+			<option value="#SPLUS7F73B0">TRD.Mech Eng L3 - July 2020 - TC1901 - Stm A</option>
+			<option value="#SPLUSBCABDB">TRD.NZ Cert in Carpentry (Level 4) - TC1901 Block 1</option>
+			<option value="#SPLUS10E96F">TRD.NZ Cert in Carpe

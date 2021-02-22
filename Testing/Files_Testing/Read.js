@@ -1,6 +1,7 @@
-var file = "helloworld.txt";
+var file = "test.html";
 
 fs = require('fs');
+
 fs.readFile(file, 'utf8', function (err,data) {
     if (err) {
       return console.log(err);
