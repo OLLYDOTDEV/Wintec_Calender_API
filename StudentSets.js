@@ -56,7 +56,6 @@ const req = https.request(options, res => {
   let data = [];
 
   res.on('data', (chunk) => {
-    //https://stackoverflow.com/a/58642482
      console.log(Buffer.from(chunk).toString())
      data.push(Buffer.from(chunk).toString())
 
@@ -68,8 +67,9 @@ res.on("end", function () {
   // https://stackoverflow.com/a/43370201 
   // 
   var stream = fs.createWriteStream("Responces/StudentSets.txt", {flags:'a'});
-      stream.write(data);
-      stream.end();
+      stream.write(toString(data));
+
+  stream.end();
 
 
 });
