@@ -1,4 +1,3 @@
-Calender = () => {
 
 Calender = () => {
 
@@ -47,8 +46,6 @@ req.on('error', error => {
 })
 
 req.end()
-
-}
 
 
 }

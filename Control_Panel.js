@@ -11,5 +11,11 @@ require('./Calender_Next.js');
 
 
 // Run Function 
-//Student_Set();
+
+
+Student_Set(); 
+Form_Modules();
+//----
+
+//Calender(); 
 

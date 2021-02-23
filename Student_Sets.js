@@ -66,12 +66,12 @@ const req = https.request(options, res => {
 
    });
 
- //'Responces/StudentSets.txt
 
-res.on("end", function () {
+
+res.on("end", () => {
   // https://stackoverflow.com/a/43370201 
   // 
-  var stream = fs.createWriteStream("Responces/StudentSets.txt", {flags:'a'});
+  var stream = fs.createWriteStream("Responces/StudentSets.txt", {flags:'w'});
       stream.write(toString(data));
 
   stream.end();
@@ -103,4 +103,3 @@ req.end()
 
 
 
-//Student_Set();

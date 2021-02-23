@@ -1,3 +1,5 @@
+const { isString } = require('util');
+
 Form_Modules = () => { 
 
 
@@ -57,12 +59,40 @@ const options = {
 const req = https.request(options, res => {
   console.log(res.statusCode, res.headers);
 
+  let data = [];
+
+  res.on('data', (chunk) => {
+     console.log(Buffer.from(chunk).toString())
+     data.push(Buffer.from(chunk).toString())
+
+   });
 
 
-  res.on('data', d => {
-    process.stdout.write(d)
-  })
+res.on("end", () => {
+  // https://stackoverflow.com/a/43370201 
+  // 
+
+
+
+  var stream = fs.createWriteStream("Responces/Form_modules.txt", {flags:'w'}); // 
+  stream.write(data + ""); // hacky way to convert to string but without "" it toString(data) would only write [object Undefined] to file as 
+
+  stream.end();
+
+
+});
+
+  
+
+
+
+
+
+
+
 })
+
+
 
 req.on('error', error => {
   console.error(error)
