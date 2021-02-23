@@ -71,8 +71,8 @@ const req = https.request(options, res => {
 res.on("end", () => {
   // https://stackoverflow.com/a/43370201 
   // 
-  var stream = fs.createWriteStream("Responces/StudentSets.txt", {flags:'w'});
-      stream.write(toString(data));
+  var stream = fs.createWriteStream("Responces/Form_Responses/StudentSets.txt", {flags:'w'});
+      stream.write(data + "");
 
   stream.end();
 
