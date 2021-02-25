@@ -1,3 +1,47 @@
+Date_List = () => {
+
+
+function days_of_a_year(year) 
+{
+   
+  return isLeapYear(year) ? 366 : 365;
+}
+
+function isLeapYear(year) {
+     return year % 400 === 0 || (year % 100 !== 0 && year % 4 === 0);
+}
+
+
+var yearbydays = new Date();
+// set date to start of the year
+yearbydays.getFullYear();
+yearbydays.setHours(1);
+yearbydays.setMonth(0);
+yearbydays.setDate(1);
+
+
+var Dates_Of_year = [];
+
+for (i = 0; i < days_of_a_year(yearbydays.getFullYear()); i++) { // make loop for every day of the year 
+  var Set_Date =  "Time: "+yearbydays.getFullYear()+"-"+yearbydays.getMonth()+"-"+yearbydays.getDate();
+  Dates_Of_year.push(Set_Date);
+//console.log(Set_Date); // human readable output for debug
+yearbydays.setDate(yearbydays.getDate() + 1);
+}
+
+
+return Dates_Of_year;
+}
+
+console.log(Date_List());
+//---------------------
+
+
+
+
+
+
+
 Calender_next = () => {
 
 const https = require('https')
@@ -13,7 +57,7 @@ const data = querystring.stringify({
     __VIEWSTATE: ' 5172F523',
     __EVENTVALIDATION: '/wEdAAMVV8goitaZdmqSylj8gXBPkLSE7BpPorAFj4r4SV8gRt8BdlG8xmWRNqro4Q17n6gg9hAUnZF0DhlEXGpuDghaUKt0biN4f4RiFtr0qgDDuw==',
     ctl00$MainContent$DateTextBox: '2021-01-18',
-    ctl00$MainContent$OverrideWeek: '2021-01-04'
+  // ctl00$MainContent$OverrideWeek: '2021-01-04'
 
 
 
@@ -88,4 +132,21 @@ req.end();
 
 }
 
-Calender_next();
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Calender_next();
+
+
+
+

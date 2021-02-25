@@ -33,8 +33,7 @@ const options = {
   path: '/student/2021/',
   method: 'POST',
   headers: {
-   
- 
+    
     'Accept-Encoding' : 'gzip, deflate, br',
     'Connection' : 'keep-alive',
     'Cache-Control' : 'max-age=0',
@@ -101,5 +100,5 @@ req.end()
 
 
 
-
+Student_Set();
 
