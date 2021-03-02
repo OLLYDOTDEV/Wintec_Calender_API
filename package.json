@@ -1,8 +1,5 @@
 {
   "dependencies": {
-    "https": "^1.0.0",
-    "proxy-agent": "^4.0.1",
-    "querystring": "^0.2.0",
-    "request": "^2.88.2"
+    "puppeteer": "^8.0.0"
   }
 }
