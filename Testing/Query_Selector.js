@@ -18,17 +18,22 @@ const options = {
 
     console.log("\ntest1\n");
 
-     scrap = await page.evaluate(() => {
-        return document.querySelector("h2").textContent
+     Scrap = await page.evaluate(() => {
+        Scrap_Elements = document.querySelectorAll("h2 .mw-headline")
+        Scrap_Array = Array.from(Scrap_Elements);
+        return Scrap_Array.map(Scrapings => Scrapings.textContent);
     });
 
 
-    console.log(scrap)
+
+
+
+    console.log(Scrap)
 
 
 
 
-    //  browser.close()
+  browser.close()
     console.log('Completed Successfully')
    })()
     
