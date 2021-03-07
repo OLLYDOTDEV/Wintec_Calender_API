@@ -34,15 +34,35 @@ const options = {
     await page.waitForSelector("#bGetTimetable");
    await page.click('#bGetTimetable') 
    
+   await page.goto('https://timetable.wintec.ac.nz/student/2021/Reports/Calendar.aspx')
+
+   await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] }); // lets page load fully 
+ 
   
-   await page.waitForNavigation({ waitUntil: 'networkidle0' })
- console.log(browser.pages());
-
-
-
+// use https://www.w3schools.com/jsref/met_document_queryselectorall.asp
 
    await page.screenshot({ path: 'screenshots/Student_Sets.png' });
-   
+
+   console.log("\ntest1\n");
+
+ 
+    
+   let scrap = await page.evaluate(() => {
+    return document.querySelector('calendar-cell-content');
+});
+
+// https://oxylabs.io/blog/puppeteer-tutorial
+// read this
+
+let nodeList = Array.from(scrap);
+  console.log("\ntest3\n");
+  console.log( nodeList);
+
+ 
+
+
+
+
 //  browser.close()
     console.log('Completed Successfully')
    })()
