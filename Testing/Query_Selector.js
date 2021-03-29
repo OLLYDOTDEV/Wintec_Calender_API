@@ -21,6 +21,7 @@ const options = {
      Scrap = await page.evaluate(() => {
         Scrap_Elements = document.querySelectorAll("h2 .mw-headline")
         Scrap_Array = Array.from(Scrap_Elements);
+        console.log("\ntest2\n");
         return Scrap_Array.map(Scrapings => Scrapings.textContent);
     });
 

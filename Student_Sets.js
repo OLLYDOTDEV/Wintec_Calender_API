@@ -31,38 +31,47 @@ const options = {
    
     await page.waitForSelector("#tWildcard");  // loads page and student sets
     await page.select('#dlObject', '#SPLUSA72251')
-    await page.waitForSelector("#bGetTimetable");
-   await page.click('#bGetTimetable') 
+  
+    await page.waitForSelector("#dlType")
+   // await page.select('#dlType', 'student_set_list;cyon_reports_list_url;dummy')
+  
+   await page.waitForSelector("#dlType");
+   await page.click('#dlType') 
+   await page.WaitForSelector(await page.click('#dlType'))
+   await page.keyboard.press('ArrowDown')
    
+  
+  // await page.keyboard.press('Enter')  
+  
+
+    await page.waitForSelector("#bGetTimetable")
+   await page.click('#bGetTimetable') 
+   console.log("\nbefore\n");
    await page.goto('https://timetable.wintec.ac.nz/student/2021/Reports/Calendar.aspx')
 
-   await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] }); // lets page load fully 
+   //await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] }); // lets page load fully 
  
   
 // use https://www.w3schools.com/jsref/met_document_queryselectorall.asp
 
    await page.screenshot({ path: 'screenshots/Student_Sets.png' });
 
-   console.log("\ntest1\n");
+  
 
- 
+    Scrap = await page.evaluate(() => {
     
-   let scrap = await page.evaluate(() => {
-    return document.querySelector('calendar-cell-content');
-});
+      Scrap_Elements = document.querySelectorAll("div.calendar-cell-content")
+      Scrap_Array = Array.from(Scrap_Elements)
+      return Scrap_Array.map(Scrapings => Scrapings.textContent)
+  });
 
-// https://oxylabs.io/blog/puppeteer-tutorial
+  console.log(Scrap);
+
+  //  return document.querySelector('calendar-cell-content');
+
+
+  // https://oxylabs.io/blog/puppeteer-tutorial
 // read this
-
-let nodeList = Array.from(scrap);
-  console.log("\ntest3\n");
-  console.log( nodeList);
-
- 
-
-
-
-
 //  browser.close()
     console.log('Completed Successfully')
    })()
