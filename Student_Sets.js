@@ -1,3 +1,11 @@
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+} 
+
+
 const puppeteer = require('puppeteer')
 
 
@@ -14,9 +22,11 @@ const options = {
     const page = await browser.newPage()
 
 
-  
+    
 
     await page.goto('https://timetable.wintec.ac.nz/student/2021/')
+
+    await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] }); // lets page load fully 
     await page.click('#LinkBtn_student_sets') // click button
     // ^^ from Change_Page_Via_Button.js
     // https://blog.antoine-augusti.fr/2019/08/submit-form-puppeteer/
@@ -27,45 +37,39 @@ const options = {
    // const searchForm1 = await page.$('#form1');
    // await searchForm1.evaluate(searchForm1 => searchForm1.submit()); // submits tWildcard filter
    
-   
-   
-    await page.waitForSelector("#tWildcard");  // loads page and student sets
+
+
+    await page.waitForSelector("#dlObject")
     await page.select('#dlObject', '#SPLUSA72251')
-  
+    await sleep(100)
     await page.waitForSelector("#dlType")
-   // await page.select('#dlType', 'student_set_list;cyon_reports_list_url;dummy')
+   Report_Type = await page.evaluate(() => {
+    document.getElementById('dlType').value="student_set_list;cyon_reports_list_url;dummy" // A work around method for changing dlType vales via overriding the DOM 
+    bGetTimetable.click()
+ });
+
   
-   await page.waitForSelector("#dlType");
-   await page.click('#dlType') 
-   await page.WaitForSelector(await page.click('#dlType'))
-   await page.keyboard.press('ArrowDown')
-   
-  
-  // await page.keyboard.press('Enter')  
   
 
     await page.waitForSelector("#bGetTimetable")
    await page.click('#bGetTimetable') 
    console.log("\nbefore\n");
-   await page.goto('https://timetable.wintec.ac.nz/student/2021/Reports/Calendar.aspx')
+   await page.goto('https://timetable.wintec.ac.nz/student/2021/Reports/List.aspx')
 
-   //await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] }); // lets page load fully 
- 
+
   
 // use https://www.w3schools.com/jsref/met_document_queryselectorall.asp
-
+await sleep(1000)
    await page.screenshot({ path: 'screenshots/Student_Sets.png' });
+ 
 
-  
-
-    Scrap = await page.evaluate(() => {
+  //   Scrap = await page.evaluate(() => {
     
-      Scrap_Elements = document.querySelectorAll("div.calendar-cell-content")
-      Scrap_Array = Array.from(Scrap_Elements)
-      return Scrap_Array.map(Scrapings => Scrapings.textContent)
-  });
-
-  console.log(Scrap);
+  //     Scrap_Elements = document.querySelectorAll("div.calendar-cell-content")
+  //     Scrap_Array = Array.from(Scrap_Elements)
+  //     return Scrap_Array.map(Scrapings => Scrapings.textContent)
+  // });
+    // console.log(Scrap);
 
   //  return document.querySelector('calendar-cell-content');
 
