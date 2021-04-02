@@ -75,35 +75,29 @@ const options = {
     await page.waitForSelector("#dlType")
    Report_Type = await page.evaluate(() => {
     document.getElementById('dlType').value="student_set_list;cyon_reports_list_url;dummy" // A work around method for changing dlType values via overriding the DOM 
-    bGetTimetable.click()
+   
  });
 
-  
-  
-
     await page.waitForSelector("#bGetTimetable")
-   await page.click('#bGetTimetable') 
+   await page.click('#bGetTimetable') // Submits Form
    console.log("\nbefore\n");
    await page.goto('https://timetable.wintec.ac.nz/student/2021/Reports/List.aspx')
 
 
   
-// use https://www.w3schools.com/jsref/met_document_queryselectorall.asp
+
 
  
 
     Events_List = await page.evaluate(() => {
-    
-      Scrap_Elements = document.querySelectorAll("tr.odd")
+    // used https://www.w3schools.com/jsref/met_document_queryselectorall.asp
+    //      https://oxylabs.io/blog/puppeteer-tutorial
+      Scrap_Elements = document.querySelectorAll("tr.odd","td.even")
       Scrap_Array = Array.from(Scrap_Elements)
       return Scrap_Array.map(Scrapings => Scrapings.textContent)
   });
     console.log(Events_List);
 
-
-
-  // https://oxylabs.io/blog/puppeteer-tutorial
-// read this
 //  browser.close()
     console.log('Completed Successfully')
    })()
