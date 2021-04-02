@@ -36,15 +36,45 @@ const options = {
     //await page.type('#tWildcard','CEID') used to configure : Refine your search by typing any part of the student set name
    // const searchForm1 = await page.$('#form1');
    // await searchForm1.evaluate(searchForm1 => searchForm1.submit()); // submits tWildcard filter
-   
+   await page.waitForSelector("#dlObject")
+   Student_Set_List = await page.evaluate(() => { // exec JS within chrome rather then CLI
+    var Student_Set_List_Array = []
 
+    Set_list_Length = Student_Set_List_Elements = Array.from(document.querySelectorAll("select#dlObject.DepartmentFilter"))[0].length
+    for (let index = 0; index < Set_list_Length; index++) {
+      var SetName = Array.from(document.querySelectorAll("select#dlObject.DepartmentFilter"))[0][index].textContent // gets StudentSet Name
+      var SetValue = Array.from(document.querySelectorAll("select#dlObject.DepartmentFilter"))[0][index].value // gets StudentSet Value
+      Student_Set_List_Array.push(SetName + " | "+SetValue )
+    }
+    return Student_Set_List_Array
+
+  });
+   
+  console.log(Student_Set_List);
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    await page.waitForSelector("#dlObject")
+    await page.select('#dlObject', '#SPLUSA72251') // Select the specified student set
 
     await page.waitForSelector("#dlObject")
     await page.select('#dlObject', '#SPLUSA72251')
+
+
     await sleep(100)
     await page.waitForSelector("#dlType")
    Report_Type = await page.evaluate(() => {
-    document.getElementById('dlType').value="student_set_list;cyon_reports_list_url;dummy" // A work around method for changing dlType vales via overriding the DOM 
+    document.getElementById('dlType').value="student_set_list;cyon_reports_list_url;dummy" // A work around method for changing dlType values via overriding the DOM 
     bGetTimetable.click()
  });
 
@@ -59,19 +89,18 @@ const options = {
 
   
 // use https://www.w3schools.com/jsref/met_document_queryselectorall.asp
-await sleep(1000)
+await sleep(2000)
    await page.screenshot({ path: 'screenshots/Student_Sets.png' });
  
 
-  //   Scrap = await page.evaluate(() => {
+    Events_List = await page.evaluate(() => {
     
-  //     Scrap_Elements = document.querySelectorAll("div.calendar-cell-content")
-  //     Scrap_Array = Array.from(Scrap_Elements)
-  //     return Scrap_Array.map(Scrapings => Scrapings.textContent)
-  // });
-    // console.log(Scrap);
+      Scrap_Elements = document.querySelectorAll("tr.odd")
+      Scrap_Array = Array.from(Scrap_Elements)
+      return Scrap_Array.map(Scrapings => Scrapings.textContent)
+  });
+    console.log(Events_List);
 
-  //  return document.querySelector('calendar-cell-content');
 
 
   // https://oxylabs.io/blog/puppeteer-tutorial
