@@ -89,8 +89,7 @@ const options = {
 
   
 // use https://www.w3schools.com/jsref/met_document_queryselectorall.asp
-await sleep(2000)
-   await page.screenshot({ path: 'screenshots/Student_Sets.png' });
+
  
 
     Events_List = await page.evaluate(() => {
